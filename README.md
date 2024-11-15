@@ -5,7 +5,7 @@ A sample project that uses UIKit and the MVVM architecture.
 
 ![Demo](Demo/demo.gif)
 
-## Compatibility
+## Implementation Details
 - For binding between the ViewModel and the View, I used a modern approach based on Swift Standard Library Concurrency.
 - Video asset loading is performed with high priority and does not block the main thread.
 - The creation and display of previews also do not block the main thread.
